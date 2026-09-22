@@ -1,0 +1,23 @@
+/* REGRA DE OURO - Sempre coloca no topo */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cracha {
+    width: 250px; /* agora vai ter 250px DE VERDADE */
+    padding: 20px;
+    border: 3px solid #111c38;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
